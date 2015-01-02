@@ -52,6 +52,8 @@ public class Graph {
 		}
 		if(flag1==1&&flag2==1)
 		{
+			//if I am making directed graph then only one the following line
+			//will be needed
 			vertexArray[i].addNeighbour(label2);
 			vertexArray[j].addNeighbour(label1);
 		}

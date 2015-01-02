@@ -71,6 +71,9 @@ public class Graph {
 		//if both vertices are found create edge
 		if(flag1==1&&flag2==1)
 		{
+			//if I am making directed graph, only one of the following will be needed
+			//if I am making weighted, then user will also input weight and that weight
+			//will be assigned rather than 1
 		graphMatrix[i][j] = 1;
 		graphMatrix[j][i] = 1;
 		}
