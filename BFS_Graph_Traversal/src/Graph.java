@@ -5,6 +5,10 @@ import java.util.List;
 import java.util.Queue;
 //To implement this, I took adjacency list representation of graph which I previously created and 
 //added two function in graph.java and one switch case in main.java
+//1. i need to keep count of number of vertex in visited list. if at the end of function,
+//its not equal to no of vertices I will keep on calling same function with randomly different node
+//2. It is breadth first search, that means that it is used for searching so we can call this function
+//with a node and just stop it when element is found
 //This is the undirected unweighted but labelled(vertex) implementation of Adjacency list
 
 public class Graph {
@@ -137,6 +141,8 @@ public class Graph {
 				{
 				visitedList.add(vertex);
 				}
+				//there is no need of a diff if here
+				//we can have this in above if
 				if(!processedList.contains(vertex))
 				{
 				unprocessedQueue.add(vertex);
