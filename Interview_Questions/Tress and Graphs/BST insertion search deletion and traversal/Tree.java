@@ -1,3 +1,4 @@
+/*basic Logic - Just like mentioned in evernote notes*/
 import java.util.*;
 public class Tree{
 	static Node root = null;
