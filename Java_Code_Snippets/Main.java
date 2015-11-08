@@ -66,6 +66,8 @@ public class Main
 	public static void hashmapNStrCase()
 	{
 	//usage of hashmaps and string case manipulation
+	// hashmap does not allow duplicate keys hence, if we do put
+   //it will replace
 	String originalStrMixedCase = "OriGiOnaL StRinG iS MixeD cAsE";
 	String lowerCase = originalStrMixedCase.toLowerCase();
 	String upperCase = originalStrMixedCase.toUpperCase();
@@ -125,6 +127,161 @@ public class Main
 	}
 	}
 	
+	//getting particular character from string
+	String origionalString = scanner.nextLine();
+	Character currentCharSequence = origionalString.charAt(0);
+	
+	//getting string length
+	origionalString.length()
+	
+	//splitting string
+	String origionalString = scanner.nextLine();
+	String strArray[] = origionalString.split(" ");
+	
+	//foreach
+	String strArray[];
+	for(String tmp : strArray)
+	{
+	newStr = newStr + tmp + "%20";
+	}
+	
+	//getting substring
+	String newStr = "";
+	newStr = newStr.substring(0,newStr.length()-3);
+	
+	//character comparison
+	String tmpString = "";
+	Character currenChar;
+	currenChar.equals(tmpString.charAt(j))
+	
+	//input integer
+	Scanner scanner = new Scanner(System.in);
+	int numOfRows = scanner.nextInt();
+	
+	//creating arraylist of integers
+	List <Integer> arrZeroRowList = new ArrayList<Integer>();
+	
+	//creating 2d array
+	int matrix[][] = new int[numOfRows][numOfCoumns];
+	
+	//adding elements in arraylist
+	List <Integer> arrZeroColumnList = new ArrayList<Integer>();
+	arrZeroRowList.add(i);
+	
+	//creating hashmaps, comparing hashmaps, checking keys, adding key value pair, getting element using key
+	static HashMap<Character,Integer> str1HashMap;
+	str1HashMap = new HashMap<Character, Integer>();
+	str1HashMap.equals(str2HashMap);
+	str1HashMap.containsKey(currentChar);
+	str1HashMap.put(currentChar,1);
+	str1HashMap.get(currentChar)
+	
+	//entering boolean from user
+	int number = Integer.parseInt(scanner.nextLine(), 2);
+	
+	// switch syntax
+	switch (input)
+	{
+	case 1 : getBit();
+	break;
+	case 2 : setBit();
+	break;
+	case 3 : clearBit();
+	break;
+	case 0: 
+	break;
+	default : System.out.println("You pressed an invalid option");
+	}
+	
+	//left shift
+	int bitNum = scanner.nextInt();
+	bitNum = 1<<bitNum;
+	
+	//logical and
+	int temp = 0;
+	temp = number&bitNum;
+	
+	//logical or
+	int temp = 0;
+	temp = number|bitNum;
+	
+	//logical negation
+	bitNum = ~bitNum;
+	
+	//printing boolean
+	int temp = 0;
+	temp = number&bitNum;
+	System.out.println("New number is " + Integer.toString(temp,2));
+	
+	//constructor
+	public class Node{
+		int data;
+		Node next;
+		public Node(int value)
+		{
+		data = value;
+		next = null;
+		}
+	}
+	
+	// add element to list, list size, printing list, getting element
+	static List<Integer> list1;
+	list1 = new ArrayList<Integer>();
+	list1.add(firstNum%10);
+	int diffInLength = list1.size()-list2.size();
+	System.out.println(list1);
+	sum = list1.get(i)
+			
+   //checking ref
+	Singleton obj1 = getObject();
+	Singleton obj2 = getObject();
+	//you check if the object references points at the same place in memory by using ==
+	if(obj1 == obj2)
+		
+	//convert string lowercase, string comparison
+     String type;
+	type = type.toLowerCase();
+	type.equals("circle")
+	
+	//interface
+	public interface Shape{
+		// interface methods cannot have a body in java 7
+		public void draw();
+		}
+	
+	//initializing array, sorting array, array length, enter array elements
+	static int[] arr  = {7,6,3,4,0,9,5,99,2,45};
+	Arrays.sort(arr);
+	double end = arr.length-1;
+	while(i<arr.length)
+	{
+	System.out.println("Enter element at position: " +i);
+	arr[i] = scanner.nextInt();
+	i++;
+	}
+	
+	//ceil and floor
+	Math.ceil((end+start)/2);
+	
+	//stack class java
+	static Stack stack2;
+	stack1 = new Stack();
+	stack1.push(scanner.nextInt());
+	int size = stack1.size();
+	if(stack2.isEmpty());
+	stack2.add(stack1.pop());
+	stack2.pop();
+	 stack2.peek();
+	 
+	// queue class java
+	 linked list implements queue interface
+	 LinkedList <Node>queue = new LinkedList<Node>();
+	queue.add(root);
+	(queue.isEmpty();
+	temp = queue.remove();
+	queue.add(temp.left);
+	
+
 }
 
 
