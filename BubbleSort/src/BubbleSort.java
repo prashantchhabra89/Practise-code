@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// WARNING - THIS IS NOT PERFECT IMPL as it does not stop comparisons if no swap made is last phase.
 
 public class BubbleSort {
 	Scanner scanner = new Scanner( System.in );
